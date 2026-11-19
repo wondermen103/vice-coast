@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+gta6-01-kit.tar.gz
+gta6-01-kit/
+.aistudio/
