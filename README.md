@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Vice Coast
 
-# Run and deploy your AI Studio app
+Open-world coastal crime, street racing, and stunt driving in 3D Vice Coast with dynamic weather, nitrous drifting, photorealistic vehicles, and an 8-mission story.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/e9e0f143-d498-4ec9-bba9-d1f722235c0a
+- **Open 3D World**: Freely roam Ocean Drive, palm tree boulevards, pier lounges, and coastal highways.
+- **Vehicles & Physics**: Steal, drive, and drift sports cars (Viper Comet RS) with nitrous and stunt detection.
+- **Police & Wanted System**: Multi-star wanted escalation with aggressive police cruisers and air helicopter units.
+- **Story Missions & Progression**: 8 narrative missions with GPS waypoints, reputation progression, and cash economy.
+- **Weapons & Combat**: Multiple weapons, hitscan ballistics, ammo management, and slow-mo focus mode.
+- **Atmosphere & Weather**: Dynamic day/night cycle and real-time atmosphere presets (Golden Hour, Tropical Storm, Midnight Neon, Coastal Noon).
+- **Procedural Synthesizer Radio**: In-game radio stations with dynamic synthesized synthwave and beats.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js (v20+)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open `http://localhost:3000` in your browser.
+
+## Build
+
+```bash
+npm run build
+```
