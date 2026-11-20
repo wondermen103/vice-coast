@@ -40,4 +40,4 @@ const dossierContent = buildDossier(out, {
 
 writeFileSync(join(out, 'dossier.json'), dossierContent);
 console.log('[Vice Coast] Submission payload staged successfully. Ready for gate evaluation.');
-console.log('[Vice Coast] All integrity checks passed. Ready for grader execution.');
+console.log('[Vice Coast] Output verified and sealed.');
