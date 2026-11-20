@@ -9,3 +9,17 @@ coverage/
 gta6-01-kit.tar.gz
 gta6-01-kit/
 .aistudio/
+src/
+public/
+test_out/
+package-lock.json
+bun.lock
+package.json
+tsconfig.json
+vite.config.ts
+metadata.json
+ABOUT.md
+index.html
+.env.example
+prompt.txt
+system_prompt.txt

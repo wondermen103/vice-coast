@@ -1,6 +1,0 @@
-{
-  "name": "Golden Hour Kings: Puerto Celeste",
-  "description": "Open-world coastal crime, street racing, and stunt driving in 3D Puerto Celeste with dynamic weather, nitrous drifting, custom PBR textures, and an 8-mission story.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
